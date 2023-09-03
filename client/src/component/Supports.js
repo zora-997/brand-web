@@ -23,7 +23,7 @@ const data = [
 ]
 
 console.log(data[0].paragraf)
-export const Supports = () => {
+const Supports = () => {
   return (
     <div name="support" className='w-full mt-32'>
 
@@ -32,12 +32,12 @@ export const Supports = () => {
       </div>
 
       <div className='text-white max-w-[1100px] mx-auto relative'>
-        
-          <h1 className='text-center text-3xl font-bold uppercase pt-4'>support</h1>
-          <h2 className='text-5xl font-bold text-center pt-5'>Fidning the right team</h2>
-          <p className='text-xl text-center text-gray-400 pt-5'>Note that the development build is not optimized.
-            To we also need  circle create and alsow we need every thing  a production build, use npm run build.</p>
-        
+
+        <h1 className='text-center text-3xl font-bold uppercase pt-4'>support</h1>
+        <h2 className='text-5xl font-bold text-center pt-5'>Fidning the right team</h2>
+        <p className='text-xl text-center text-gray-400 pt-5'>Note that the development build is not optimized.
+          To we also need  circle create and alsow we need every thing  a production build, use npm run build.</p>
+
 
         {/** box */}
         <div className='grid md:grid-cols-3 mx-2 text-black gap-x-8 gap-y-20 mt-32 sm:mt-44'>
@@ -57,7 +57,7 @@ export const Supports = () => {
             </div>
           })}
         </div>
-         {/**  end */}
+        {/**  end */}
 
       </div>
     </div>
@@ -65,3 +65,4 @@ export const Supports = () => {
 
   )
 }
+export default Supports

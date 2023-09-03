@@ -4,11 +4,14 @@ import Footer from "./component/Footer";
 import Home from "./component/Home";
 import Navbar from "./component/Navbar";
 import Pricing from "./component/Pricing";
-import { Supports } from "./component/Supports";
+import Supports from "./component/Supports";
+
+
 
 function App() {
   return (
-    <>
+
+    <div>
       <Navbar />
       <Home />
       <About />
@@ -16,9 +19,10 @@ function App() {
       <AllnOne />
       <Pricing />
       <Footer />
-    </>
+    </div>
+
+
   );
 }
-
 
 export default App;
